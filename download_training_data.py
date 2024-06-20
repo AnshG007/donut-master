@@ -127,7 +127,7 @@ def download_json_files(urls_dict, folder_name):
                 f.write(response.content)
 def key_file_checker(urls_dict):
     json_list_path = 'downloadfiles/json'
-    jpeg_list_path = 'downloadfiles/jpeg'
+    jpeg_list_path = 'downloadfiles/images'
     json_file_list = os.listdir(json_list_path)
     jpeg_file_list = os.listdir(jpeg_list_path)
     for file in json_file_list:
